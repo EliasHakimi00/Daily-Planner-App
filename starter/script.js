@@ -48,7 +48,10 @@ const fillTimeTable = () => {
 // Function calls
 displayToday();
 fillTimeTable();
-$('.saveBtn').on('click', saveSchedule);
+$('.saveBtn').on('click', function() {
+  alert("Appointment has been saved in local storage");
+  saveSchedule();
+});
 
 // function for save schedule in the local storage
 function saveSchedule() {
