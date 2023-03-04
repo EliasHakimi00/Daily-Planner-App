@@ -10,3 +10,9 @@ var currentHour = moment().format('H');
 var timeTableElement;
 var currentState;
 
+const displayToday = () => {
+  // today display
+  const today = moment().format("dddd, MMMM Do, HH:mm A");
+  $('#currentDay').text(today);
+};
+
