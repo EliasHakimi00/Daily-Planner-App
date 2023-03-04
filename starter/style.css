@@ -47,12 +47,12 @@ textarea:focus {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #ea0808;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #f7f70c;
   color: white;
 }
 

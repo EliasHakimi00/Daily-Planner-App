@@ -72,7 +72,7 @@ function loadSchedule() {
 }
 
 // updating date and time every 1 minute
-setInterval(function() {
+setInterval(function() {l
   displayToday();
 }, 60000);
 
